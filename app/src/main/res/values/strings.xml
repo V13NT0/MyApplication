@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="inicio">Inicio</string>
+    <string name="profile">Perfil</string>
+    <string name="back">Volver</string>
+    <string name="edit">Editar</string>
+    <string name="t_name">Nombre:</string>
+    <string name="save">Guardar</string>
+</resources>

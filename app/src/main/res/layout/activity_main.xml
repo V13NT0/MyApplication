@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/card_background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Inicio"
+        android:textSize="40dp"
+        android:layout_gravity="start"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        />
+    
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="2"
+        android:rowCount="3"
+        android:layout_margin="50dp">
+    
+       <!-- <ImageButton
+           android:id="@+id/imgb_play"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:src="@drawable/ic_play"
+           android:layout_gravity="fill"
+           android:layout_columnWeight="1"
+           android:layout_rowWeight="1"
+           android:layout_row="0"
+           android:layout_column="0"
+           android:elevation="10dp"
+           android:layout_margin="10dp"
+           android:backgroundTint="?attr/colorOnPrimary"
+           android:onClick="onClick"
+           >
+
+       </ImageButton>
+       -->
+
+        <ImageButton
+            android:id="@+id/imgb_play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_play"
+            android:background="@drawable/roundcorner"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:elevation="10dp"
+            android:layout_margin="10dp"
+            android:backgroundTint="?attr/colorOnPrimary"
+            android:onClick="onClick"
+            />
+
+        <ImageButton
+            android:id="@+id/imgb_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_profile"
+            android:background="@drawable/roundcorner"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:elevation="10dp"
+            android:layout_margin="10dp"
+            android:backgroundTint="?attr/colorOnPrimary"
+            android:onClick="onClick">
+
+        </ImageButton>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_group"
+            android:background="@drawable/roundcorner"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:elevation="10dp"
+            android:layout_margin="10dp"
+            android:backgroundTint="?attr/colorOnPrimary">
+
+        </ImageButton>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_chat"
+            android:background="@drawable/roundcorner"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:elevation="10dp"
+            android:layout_margin="10dp"
+            android:backgroundTint="?attr/colorOnPrimary">
+
+        </ImageButton>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_settings"
+            android:background="@drawable/roundcorner"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:elevation="10dp"
+            android:layout_margin="10dp"
+            android:backgroundTint="?attr/colorOnPrimary">
+
+        </ImageButton>
+        <ImageButton
+            android:id="@+id/imgb_quit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_quit"
+            android:background="@drawable/roundcorner"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:elevation="10dp"
+            android:layout_margin="10dp"
+            android:backgroundTint="?attr/colorOnPrimary"
+            android:onClick="onClick">
+
+        </ImageButton>
+
+
+
+
+    </GridLayout>
+
+</LinearLayout>
